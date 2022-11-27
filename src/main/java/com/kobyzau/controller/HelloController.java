@@ -11,7 +11,8 @@ public class HelloController {
     public ResponseEntity<?> hello() {
         return ResponseEntity.ok("""
                                          {
-                                         "status": "OK"
+                                         "status": "OK",
+                                         "version": 2,
                                          }
                                          """);
     }
